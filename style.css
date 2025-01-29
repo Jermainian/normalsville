@@ -1,0 +1,136 @@
+@font-face {
+	font-family:"january";
+	src:url("march.woff");
+}
+
+body {
+	margin:0;
+	background:url("bg.jpeg");
+	font-family:january;
+	font-size:2.5vh;
+}
+
+.wrap {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:75%;
+	background-color:rgba(255,255,255,.2);
+}
+
+.header {
+	width:100%;
+	padding-left:1vw;
+}
+
+.headerImg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:30%;
+}
+
+.nav {
+	width:100%;
+	text-align:center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hiddenNav {
+	width:100%;
+	text-align:center;
+	display: none;
+	z-index:1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navItem {
+	display:inline-block;
+	height:5vh;
+	padding:1vh 0;
+	font-size:3vh;
+	position: relative;
+	text-align:center;
+	/* DEBUG BACKGROUND COLOR */
+	background-color:rgba(255,255,255,.4);
+	border-radius:1vw;
+	width:8rem;
+}
+
+.comicNavItem {
+	display:inline-block;
+	height:4.5vh;
+	padding:1vh 0;
+	position: relative;
+	text-align:center;
+	/* DEBUG BACKGROUND COLOR */
+	background-color:rgba(255,255,255,.4);
+	border-radius:1vw;
+	width:6rem;
+}
+
+.comicSelector {
+	display:inline-block;
+	height:4.5vh;
+	padding:1vh 0;
+	position: relative;
+	text-align:center;
+	/* DEBUG BACKGROUND COLOR */
+	background-color:rgba(255,255,255,.4);
+	border-radius:1vw;
+	width:18rem;
+}
+
+.navText {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color:#000;
+}
+
+.content {
+	margin:1vh 1vw;
+	padding:1vh 1vw;
+	text-align:center;
+}
+
+.contentName {
+	font-size:5vh;
+}
+
+.castTable {
+	width:100%;
+	background-color:rgba(255,255,255,.6);
+}
+
+.charImg {
+}
+
+.charImg img {
+	margin: 5px;
+	float: right;
+	width: 8vw;
+}
+
+.charName {
+	font-size:3.5vh;
+}
+
+.castImgSpace {
+	background-color:rgba(255,255,255,.6);
+}
+
+.peopleImg {
+	width:100%;
+	background-color:rgba(255,255,255,.6);
+}
+
+.footer {
+	padding:1vh 1vw;
+	text-align:center;
+}

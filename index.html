@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="header">
+				<img class="headerImg" src="header.png">
+			</div>
+			<div class="nav">
+				<a href="index.html"><div class="navItem"><span class="navText">Home</span></div></a>
+				<a href="#"><div class="navItem"><span class="navText">About</span></div></a>
+				<a href="cast.html"><div class="navItem"><span class="navText">Cast</span></div></a>
+				<a href="#"><div class="navItem"><span class="navText">4th Button</span></div></a>
+			</div>
+			<div class="content">
+				<span class="contentName">Abbey Dies (The Window Pt.10)</span><br>
+				<div class="nav">
+					<a href="#"><div class="comicNavItem"><span class="navText">First</span></div></a>
+					<a href="#"><div class="comicNavItem"><span class="navText">Scroll View</span></div></a>
+					<a href="#"><div class="comicNavItem"><span class="navText">Random</span></div></a>
+					<a href="#"><div class="comicNavItem"><span class="navText">List View</span></div></a>
+					<a href="#"><div class="comicNavItem"><span class="navText">Recent</span></div></a>
+				</div>
+				<div class="nav">
+					<a href="#"><div class="comicNavItem"><span class="navText">&larr;</span></div></a>
+					<div class="comicSelector" onHover="showSelector()"><span class="navText">Comic Selector</span></div>
+					<a href="#"><div class="comicNavItem"><span class="navText">&rarr;</span></div></a>
+				</div>
+				<div class="hiddenNav" id="hiddenNav">
+					<div class="comicSelector"><span class="navText">Comic Selector will be here</span></div>
+				</div>
+				<img src="comic.png">
+			</div>
+			<div class="footer">
+				Hey, you've reached the end!<br>
+				Eventually, this is where you will find the date and time, among other things.<br><br>
+				<!-- A <a href="http://www.stratosphereonline.com">Stratosphere Online</a> site. -->
+			</div>
+		</div>
+		<script>
+			function showSelector() {
+				var hiddenNav = document.getElementById("hiddenNav");
+				hiddenNav.style.display = "block";
+			};
+		</script>
+	</body>
+</html>
